@@ -1,16 +1,15 @@
 class Bear
 
-  attr_accessor :name, :type, :tummy
+  attr_accessor :name, :type, :food
 
-  def initialize(name, type, tummy)
+  def initialize(name, type, food)
     @name = name
     @type = type
-    @tummy = tummy
+    @food = []
   end
 
   def roar()
-    return "Roar"
+    return "Roarasorus Rex"
   end
-
 
 end
